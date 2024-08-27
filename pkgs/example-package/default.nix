@@ -3,6 +3,7 @@
 , fetchFromGitHub
 }:
 
+
 stdenv.mkDerivation rec {
   pname = "openfortivpn-webview";
   version = "1.2.0-electron";
